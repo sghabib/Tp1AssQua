@@ -21,7 +21,7 @@ public class CV {
 	
 	public void affiche() {
 		
-		System.out.println("Nom : " + nom);
+		System.out.println("\nNom : " + nom);
 		System.out.println("Prenom : " + prenom);
 		System.out.println("Formation : " + formation);
 		System.out.println("Expériences de travail : " + expTravail);
