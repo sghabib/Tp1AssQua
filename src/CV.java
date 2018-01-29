@@ -19,4 +19,20 @@ public class CV {
 		
 	}
 	
+	public void affiche() {
+		
+		System.out.println("Nom : " + nom);
+		System.out.println("Prenom : " + prenom);
+		System.out.println("Formation : " + formation);
+		System.out.println("Expériences de travail : " + expTravail);
+		System.out.println("Compétences : ");
+		
+		for (String string : competences) {
+			System.out.println("	" + string);
+		}
+		
+		System.out.println("Attentes vis à vis le cours 4B4 : " + attentes);
+		
+	}
+	
 }
