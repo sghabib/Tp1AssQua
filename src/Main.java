@@ -15,6 +15,7 @@ public class Main {
 		System.out.println("Bienvenue chez Barette !");
 		fred.affiche();
 
+		arthur.affiche();
 	}
 
 }
